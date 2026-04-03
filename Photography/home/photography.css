@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 40px;
+  vertical-align: center;
+}
+
+header {
+  width: 80%;
+  height: 100px;
+  /* background-color: purple; */
+  margin: 0px auto;
+  text-align: center;
+  line-height: 100px;
+}
+
+nav {
+  width: 80%;
+  height: 60px;
+  /* background-color: blue; */
+  margin: 0px auto;
+  vertical-align: center;
+  display: flex;
+  justify-content: center;
+  direction: row;
+  gap: 10px;
+}
+
+.nav-button {
+  width: 20%;
+  height: 60px;
+  background-color: lightblue;
+  color: white;
+  /* border: solid black 1px;
+  box-sizing: border-box; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.nav-button:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.nav-button:active {
+  background-color: gray;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+main {
+  width: 80%;
+  height: auto;
+  /* background-color: pink; */
+  margin: 20px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-content {
+  width: 100%;
+  /* height: 300px; */
+  /* background-color: lightblue; */
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  padding: 20px 0;
+}
+
+.main-content:first-child,
+.main-content:last-child {
+  justify-content: flex-start;
+}
+
+.main-content:nth-child(2) {
+  justify-content: flex-end;
+}
+
+.main-text {
+  width: 400px;
+  height: auto;
+  /* background-color: lightgreen; */
+  margin-left: 30px;
+}
+
+.main-text2 {
+  width: 400px;
+  height: auto;
+  /* background-color: lightgreen; */
+  margin-right: 30px;
+}
+
+p {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.main-image1 {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  background-color: lightcoral;
+}
+
+.main-image2 {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  /* background-color: lightcoral; */
+}
+
+/* .main-text {
+  width: 400px; 
+  max-width: 100%;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.main-image1,
+.main-image2 {
+  max-width: 100%;
+  height: auto; 
+  object-fit: cover;
+} */
+
+.main-image:hover {
+  transform: scale(1.5);
+  transition: all 0.2s ease;
+}
+
+footer {
+  width: 80%;
+  height: 62px;
+  /* background-color: red; */
+  margin: 0px auto;
+  vertical-align: center;
+  display: flex;
+  justify-content: center;
+  direction: row;
+  gap: 10px;
+}
